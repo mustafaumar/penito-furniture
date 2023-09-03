@@ -17,10 +17,10 @@ const HeroSection = () => {
 					Beauty and functionality
 				</p>
 				<div className="flex justify-center gap-x-2 md:justify-start">
-					<button className="flex items-center justify-center bg-clr4 px-2 py-6 h-10 rounded-lg text-white">
+					<button className="flex items-center justify-center bg-clr4 px-2 py-7 h-10 rounded-lg text-white">
 						Shop Here <FaArrowCircleRight className="text-clr3 ml-1" />
 					</button>
-					<button className="flex items-center justify-center px-2 py-6 h-10 rounded-lg text-black font-semibold shadow-sm shadow-black">
+					<button className="flex items-center justify-center px-2 py-7 h-10 rounded-lg text-black font-semibold shadow-sm shadow-black">
 						<FaPlayCircle className="text-clr1 mr-1 text-2xl" /> Watch Here
 					</button>
 				</div>

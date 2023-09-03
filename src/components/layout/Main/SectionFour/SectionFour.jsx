@@ -20,12 +20,13 @@ const SectionFour = () => {
 			<p className="text-7xl font-semibold text-clr1 text-center">
 				Our Partners & Sponsors
 			</p>
-			<div className="flex flex-row flex-1 align-middle my-16">
+			<div className="flex flex-row flex-1 align-middle my-20 ">
 				<Swiper
+					className="ml-7"
 					modules={[Virtual, Autoplay]}
 					centeredSlides="true"
 					spaceBetween={0}
-					autoplay={{ delay: 4000, disableOnInteraction: false }}
+					autoplay={{ delay: 1500, disableOnInteraction: false }}
 					slidesPerView={3}
 					loop="true"
 					virtual={{ enabled: true }}

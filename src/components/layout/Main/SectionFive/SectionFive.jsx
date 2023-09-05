@@ -10,7 +10,7 @@ import { Mousewheel } from "swiper/modules";
 import "swiper/css/mousewheel";
 const SectionFive = () => {
   return (
-		<div className="bg-clr6 py-5">
+		<div className="bg-clr7 py-5">
 			<p className="text-5xl font-semibold text-clr1 text-center my-6">
 				Visit Our Instagram Gallery
 			</p>

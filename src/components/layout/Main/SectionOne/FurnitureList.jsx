@@ -22,7 +22,7 @@ const FurnitureList = () => {
 				<ul className="flex items-center flex-row flex-wrap justify-center mx-0 my-auto text-center ">
 					<li>
 						<button
-							className=" focus:bg-clr5 hover:bg-clr5 text-base  bg-clr2 cursor-pointer font-medium px-4 py-2 mx-1 my-2 whitespace-nowrap rounded-[20px] border-none outline-none"
+							className=" focus:bg-clr5 hover:bg-clr5 text-base  bg-clr6 cursor-pointer font-medium px-4 py-2 mx-1 my-2 whitespace-nowrap rounded-[20px] border-none outline-none"
 							onClick={() => {
 								setData(FurnitureData);
 							}}
@@ -33,7 +33,7 @@ const FurnitureList = () => {
 					{category.map((item) => (
 						<li>
 							<button
-								className=" focus:bg-clr5 hover:bg-clr5 text-base  bg-clr2 cursor-pointer font-medium px-4 py-2 mx-1 my-2 whitespace-nowrap rounded-[20px] border-none outline-none"
+								className=" focus:bg-clr5 hover:bg-clr5 text-base  bg-clr6 cursor-pointer font-medium px-4 py-2 mx-1 my-2 whitespace-nowrap rounded-[20px] border-none outline-none transition-all ease-in"
 								onClick={() => {
 									filterCategory(item);
 								}}
@@ -48,12 +48,12 @@ const FurnitureList = () => {
 				{data.map((item) => (
 					<div
 						key={item.id}
-						className="flex flex-col p-8 items-center bg-clr6 hover:shadow-3xl hover:bg-white rounded-lg  mx-4 my-3 w-[200px]"
+						className="flex flex-col p-8 items-center bg-clr6 hover:shadow-3xl  hover:bg-white rounded-lg  mx-4 my-3 w-[200px]"
 					>
 						<div className="flex w-full m-auto ">
-							<img src={item.image} alt="" />
+							<img src={item.image} alt="Image data" />
 						</div>
-						<div className=" leading-4 flex flex-col text-left my-3">
+						<div className=" leading-4 flex flex-col text-center my-3">
 							<p className="text-xl font-semibold text-clr1 my-4">
 								{item.description}
 							</p>

@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 const SectionThree = () => {
 	return (
-		<div className="bg-clr6  p-9 mb-4">
+		<div className="bg-clr7  p-9 mb-4">
 			<p className="text-5xl text-center font-semibold text-clr1 my-4  ">
 				Our Customer say
 			</p>

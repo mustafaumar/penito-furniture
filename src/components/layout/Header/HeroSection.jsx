@@ -1,9 +1,9 @@
 import React from "react";
 import { FaArrowCircleRight, FaPlayCircle } from "react-icons/fa";
 import styles from "../Header/Hero.module.css";
-import HeroSection1 from "../../../assets/herosection1.png";
-import HeroSection2 from "../../../assets/herosection2.png";
-import HeroSection3 from "../../../assets/herosection3.png";
+import HeroSection1 from "/assets/herosection1.png";
+import HeroSection2 from "/assets/herosection2.png";
+import HeroSection3 from "/assets/herosection3.png";
 const HeroSection = () => {
 	return (
 		<div className=" py-8 mt-16 md:mt-0 px-5 md:px-10 md:grid md:gap-x-3 md:grid-cols-2  md:items-center md:justify-between md:h-screen">

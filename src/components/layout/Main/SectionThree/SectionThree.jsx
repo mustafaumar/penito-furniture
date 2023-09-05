@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import Stars from "../../../../assets/Stars.png";
-import SectionThreeImg from "../../../../assets/sectionthree.png";
+import Stars from "/assets/Stars.png";
+import SectionThreeImg from "/assets/sectionthree.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Keyboard, Navigation } from "swiper/modules";
@@ -43,7 +43,7 @@ const SectionThree = () => {
 					<div>
 						<img
 							src={SectionThreeImg}
-							alt=""
+							alt="Customer's Furniture"
 							className="w-4/5 m-auto md:m-0 md:w-full"
 						/>
 					</div>
@@ -74,7 +74,7 @@ const SectionThree = () => {
 					<div>
 						<img
 							src={SectionThreeImg}
-							alt=""
+							alt="Customer's Furniture"
 							className="w-4/5 m-auto md:m-0 md:w-full"
 						/>
 					</div>
@@ -94,14 +94,14 @@ const SectionThree = () => {
 							<img className="flex m-auto  lg:m-0" src={Stars} alt="" />
 							<p className="text-xl font-semibold text-clr1 my-1">Nike Lois</p>
 							<p className="text-base font-semibold text-clr2">
-								Digital Marketer
+								Crocheter
 							</p>
 						</div>
 					</div>
 					<div>
 						<img
 							src={SectionThreeImg}
-							alt=""
+							alt="Customer's Furniture"
 							className="w-4/5 m-auto md:m-0 md:w-full"
 						/>
 					</div>

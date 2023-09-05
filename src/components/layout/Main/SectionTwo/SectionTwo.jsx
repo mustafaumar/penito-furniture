@@ -1,10 +1,11 @@
 import React from "react";
 import Benefits from "./Benefits";
-import CarDelivery from "../../../../assets/delivery.svg";
-import RepeatArrow from "../../../../assets/arrow-repeat.svg";
-import Hours from "../../../../assets/24-hours.svg";
-import PriceRibbon from "../../../../assets/price-ribbon.svg";
-import BenefitPic from "../../../../assets/benefitImg.png";
+
+import CarDelivery from "/assets/delivery.svg";
+import RepeatArrow from "/assets/arrow-repeat.svg";
+import Hours from "/assets/24-hours.svg";
+import PriceRibbon from "/assets/price-ribbon.svg";
+import BenefitPic from "/assets/benefitImg.png";
 const SectionTwo = () => {
   return (
     <div className="p-10">
@@ -15,27 +16,31 @@ const SectionTwo = () => {
         <div className="grid md:grid-cols-2 items-center ">
           <Benefits
             image={CarDelivery}
+            alt= {CarDelivery}
             head="Fast & Free Shipping"
             main="Sign up to premier delivery in Nigeria for unlimited free shipping from USA."
           />
           <Benefits
             image={Hours}
+            alt={24/7}
             head="24/7 Support"
             main="24/7 support is a kind of support that is available throughout."
           />
           <Benefits
             image={RepeatArrow}
+            alt={RepeatArrow}
             head="Hassle Free Returns"
             main="Free return within 15 days for official store items and 7 days for other eligible items."
           />
           <Benefits
             image={PriceRibbon}
+            alt={PriceRibbon}
             head="Your Best Price Matching"
             main="Ask to speak to a manger, show him the competitor’s lower price."
           />
         </div>
         <div>
-          <img src={BenefitPic} alt="" className=" w-4/4 m-auto items-center" />
+          <img src={BenefitPic} alt="Three men discussing about a project" className=" w-4/4 m-auto items-center" />
         </div>
       </div>
       <div className="flex justify-center items-center py-5">

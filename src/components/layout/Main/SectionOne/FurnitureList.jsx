@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Colors from "../../../../assets/Colours.png";
-import Stars from "../../../../assets/Stars.png";
+// import Colors from "../../../../assets/Colours.png";
+// import Stars from "../../../../assets/Stars.png";
 import { FurnitureData } from "./FurnitureData";
 const FurnitureList = () => {
 	const [data, setData] = useState([]);

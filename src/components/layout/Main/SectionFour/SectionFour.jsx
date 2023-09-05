@@ -7,13 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/virtual";
 import "swiper/css/autoplay";
-import Google from "../../../../assets/Google.svg";
-import Coursera from "../../../../assets/Coursera.svg";
-import Airbnb from "../../../../assets/Airbnb.svg";
-import Microsoft from "../../../../assets/Microsoft.svg";
-import Duolingo from "../../../../assets/Duolingo.svg";
-import Udemy from "../../../../assets/Udemy.svg";
-import Pluralsight from "../../../../assets/Pluralsight.svg";
+import Google from "/assets/Google.svg";
+import Coursera from "/assets/Coursera.svg";
+import Airbnb from "/assets/Airbnb.svg";
+import Microsoft from "/assets/Microsoft.svg";
+import Duolingo from "/assets/Duolingo.svg";
+import Udemy from "/assets/Udemy.svg";
+import Pluralsight from "/assets/Pluralsight.svg";
 const SectionFour = () => {
 	return (
 		<div className="my-10">
@@ -50,25 +50,25 @@ const SectionFour = () => {
 					}}
 				>
 					<SwiperSlide className="flex justify-center">
-						<img src={Google} alt="" />
+						<img src={Google} alt="Google" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Coursera} alt="" className="w-3/5" />
+						<img src={Coursera} alt="Coursera" className="w-3/5" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Airbnb} alt="" />
+						<img src={Airbnb} alt="Airbnb" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Microsoft} alt="" />
+						<img src={Microsoft} alt="Microsoft" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Duolingo} alt="" />
+						<img src={Duolingo} alt="Duolingo" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Udemy} alt="" />
+						<img src={Udemy} alt="Udemy" />
 					</SwiperSlide>
 					<SwiperSlide className=" flex justify-center">
-						<img src={Pluralsight} alt="" />
+						<img src={Pluralsight} alt="Pluralsight" />
 					</SwiperSlide>
 				</Swiper>
 			</div>

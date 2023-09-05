@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoImage from "../../../assets/logo.png";
+import LogoImage from "/assets/logo.png";
 import { FaShoppingCart, FaSearch, FaBars} from "react-icons/fa";
 import styles from "../Header/Hero.module.css";
 
